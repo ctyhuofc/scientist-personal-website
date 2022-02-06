@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6E6D6;
+}
+h1{
+    text-align: center;
+    color: #0637AA;
+}
+.top-container{
+    margin: 10px 250px 50px 250px; 
+}
+
+.top-container p{
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border: 1px solid #0637AA;
+    margin-top: 0px;
+}
+
+.top-container img{
+    border: 5px inset black;
+    width: 400px;
+}
+
+.middle-container{
+    border: 3px solid black;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 10px 200px;
+    border-radius: 10px;
+    background-color:#F4D002;
+}
+
+.upcoming-events{
+    float: clear;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 25px auto;
+    padding: 50px 50px;
+    text-align: left;
+    font-size: larger;
+    color:brown;
+    border-radius: 5px;
+    background-color: #F9A913;
+}
+
+h2{
+    margin: 20px 10px 5px 100px;
+    display: inline;
+}
+
+.stylebutton{
+    margin:10px;
+}
+
+.style-button{
+    text-align: center;
+    margin: auto;
+    padding: 5px 100px;
+    background-color: #FE3317;
+    color: #F7E1D0;
+    display:block;
+}
+
+.bottom-container{
+    border: 3px solid black;
+    padding: 0px 20px;
+    text-align: left;
+    margin: 10px 200px;
+    border-radius: 10px;
+    background-color:#F4D002;
+
+}
+
+.article{
+    padding-bottom: 10px;
+}
+
+.article-name{
+    font-weight: bold;
+}
+
+.scientist-input{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    margin-bottom: 50px;
+}

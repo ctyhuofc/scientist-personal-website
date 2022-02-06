@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website of Dr. Emmett Brown</title>
+<style></style>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+    <script>
+        function buttonFunction() {
+          alert(scientist);
+        }
+        </script>
+</head>
+<body>
+<div class = "header">
+<h1>Dr. Emmett Brown</h1>
+</div>
+<div class="top-container">
+<img src="./images/docpic.jpg">
+<p>My name is Doctor Emmett Brown. NOT Rick! I  am a scientist and inventer of the flux-capacitor</p>
+</div>
+<h2 id="upcoming-header">Upcoming Events:</h2>
+    <div class="middle-container">
+        <div class="upcoming-events">
+        <p class="event-name">Death</p>
+        <p class="event-location">Location:</p>
+        <p class="event-date">Date: Oct. 15th 1885</p>
+        </div>
+
+        <div class="upcoming-events">
+        <p class="event-name">First Time Travel</p>
+        <p class="event-location">Location:</p>
+        <p class="event-date">Date: Oct 15th 1985</p>
+        </div>
+        
+        <div class="upcoming-events">
+        <p class="event-name">Purchase Flying Dalorean</p>
+        <p class="event-location">Location:</p>
+        <p class="event-date">Date: Oct. 15th 2015</p>
+        </div>
+
+
+
+    </div>
+    <div class="stylebutton">
+    <button class="style-button">Style Me</button>
+    </div>
+    <h2>Articles:</h2>
+    <div class="bottom-container">
+    <div class="article">
+        <p class="article-name">Article Name:</p>
+        <p class="article-description">Article Description</p>
+        <hr>
+
+    </div>
+    <div class="article">
+        <p class="article-name">Article Name:</p>
+        <p class="article-description">Article Description</p>
+
+    </div>
+    <div class="article">
+        <p class="article-name">Article Name:</p>
+        <p class="article-description">Article Description</p>
+
+    </div>
+    </div>
+    <Form>
+    <label for"Scientist"><h2>Favourite Scientist:</h2><label><input type="text" class="scientist-input" id="scientist" value="">
+    <button class="style-button" onclick="alert('Your fav scientist is '+scientist.value+'!')">Click Me</button>
+    </Form>
+</body>
+</html>
