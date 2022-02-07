@@ -14,31 +14,31 @@
         }
         </script>
 </head>
-<body>
+<body id="styleBody">
 <div class = "header">
-<h1>Dr. Emmett Brown</h1>
+<h1 id="name-header">Dr. Emmett Brown</h1>
 </div>
 <div class="top-container">
-<img src="./images/docpic.jpg">
-<p>My name is Doctor Emmett Brown. NOT Rick! I  am a scientist and inventer of the flux-capacitor</p>
+<img src="./images/docpic.jpg" id="docpic" >
+<p id="docd">My name is Doctor Emmett Brown. NOT Rick! I  am a scientist and inventer of the flux-capacitor. My best friends are a teenage boy named Marty and my dog Einstein.</p>
 </div>
 <h2 id="upcoming-header">Upcoming Events:</h2>
-    <div class="middle-container">
-        <div class="upcoming-events">
+    <div class="middle-container" id="mid-cont">
+        <div class="upcoming-events" id="ue1">
         <p class="event-name">Death</p>
-        <p class="event-location">Location:</p>
+        <p class="event-location">Location: Hill Valley</p>
         <p class="event-date">Date: Oct. 15th 1885</p>
         </div>
 
-        <div class="upcoming-events">
+        <div class="upcoming-events" id="ue2">
         <p class="event-name">First Time Travel</p>
-        <p class="event-location">Location:</p>
+        <p class="event-location">Location: Hill Valley</p>
         <p class="event-date">Date: Oct 15th 1985</p>
         </div>
         
-        <div class="upcoming-events">
-        <p class="event-name">Purchase Flying Dalorean</p>
-        <p class="event-location">Location:</p>
+        <div class="upcoming-events" id="ue3">
+        <p class="event-name">Converted Flying DeLorean</p>
+        <p class="event-location">Location: Hill Valley</p>
         <p class="event-date">Date: Oct. 15th 2015</p>
         </div>
 
@@ -46,26 +46,26 @@
 
     </div>
     <div class="stylebutton">
-    <button class="style-button">Style Me</button>
+    <button class="style-button" onclick="clickMe()">Fix Me</button>
     </div>
     <h2>Articles:</h2>
     <div class="bottom-container">
     <div class="article">
-        <p class="article-name">Article Name:</p>
-        <p class="article-description">Article Description</p>
+        <p class="article-name">Doors Of Steel, Wings of Time</p>
+        <p class="article-description">Why the DeLorean may be the ideal container for chronological travel</p>
         <hr>
-
     </div>
     <div class="article">
-        <p class="article-name">Article Name:</p>
-        <p class="article-description">Article Description</p>
-
+        <p class="article-name">1.21 gigawatts in a bottle</p>
+        <p class="article-description">The consideration of lightening as a replacement for plutonium</p>
+        <hr>
     </div>
     <div class="article">
-        <p class="article-name">Article Name:</p>
-        <p class="article-description">Article Description</p>
+        <p class="article-name">Jig Dressed Man</p>
+        <p class="article-description">Exploring the influence of 1880's folk dance on ZZ top</p>
 
     </div>
+    
     </div>
     <Form>
     <label for"Scientist"><h2>Favourite Scientist:</h2><label><input type="text" class="scientist-input" id="scientist" value="">

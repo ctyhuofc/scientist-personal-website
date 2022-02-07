@@ -1,46 +1,40 @@
 body{
-    margin: 0px;
+    /* margin: 0px;
     padding: 0px;
-    background-color: #F6E6D6;
+    background-color: #F6E6D6; */
 }
 h1{
-    text-align: center;
-    color: #0637AA;
+text-align: right;
+font-family: cursive;
 }
 .top-container{
-    margin: 10px 250px 50px 250px; 
+    margin: auto 400px;
+    margin-bottom: 20px;
 }
 
 .top-container p{
-    display: inline-block;
-    position: absolute;
-    padding: 5px;
-    margin-left: 100px;
-    margin-right: 200px;
-    border: 1px solid #0637AA;
-    margin-top: 0px;
+
 }
 
 .top-container img{
-    border: 5px inset black;
-    width: 400px;
+    /* border: 5px inset black;*/
+    width: 20px;
 }
 
 .middle-container{
     border: 3px solid black;
     padding: 0px 20px;
     text-align: center;
-    margin: 10px 200px;
+    margin: 10px 400px;
     border-radius: 10px;
-    background-color:#F4D002;
 }
 
 .upcoming-events{
     float: clear;
     display: inline-block;
-    border: 1px solid black;
-    margin: 25px auto;
-    padding: 50px 50px;
+    border: 2px solid black;
+    /* margin: 25px 100px; */
+    padding: 10px 25px;
     text-align: left;
     font-size: larger;
     color:brown;
@@ -49,7 +43,7 @@ h1{
 }
 
 h2{
-    margin: 20px 10px 5px 100px;
+    margin: 20px 10px 5px 400px;
     display: inline;
 }
 
@@ -58,26 +52,32 @@ h2{
 }
 
 .style-button{
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 5px 100px;
     background-color: #FE3317;
-    color: #F7E1D0;
+    color: black;
     display:block;
+    font-size: 2000%;
+}
+
+.style-button:hover{
+    color:white;
+    background-color: black;
 }
 
 .bottom-container{
     border: 3px solid black;
-    padding: 0px 20px;
+    padding: 10px 20px;
     text-align: left;
-    margin: 10px 200px;
+    margin: 10px 400px;
     border-radius: 10px;
     background-color:#F4D002;
 
 }
 
 .article{
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .article-name{
@@ -92,4 +92,20 @@ h2{
 
 form{
     margin-bottom: 50px;
+}
+#ue1{
+margin-left: 0px;
+margin-right: 150px;
+}
+
+#ue2{
+    margin: 25px auto;
+}
+
+#ue3{
+    margin-left: 150px;
+}
+
+.event-name{
+    /* font-weight: bold; */
 }
