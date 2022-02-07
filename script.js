@@ -39,4 +39,80 @@ function clickMe(){
         nameHeader.style.color = "#0637AA";
         nameHeader.style.margin = "50px";
         nameHeader.style.fontFamily = "Times New Roman";
+
+        let articleOne = document.createElement('div')
+        document.getElementById ("bottomContainer").append(articleOne)
+        articleOne.id="article1"
+        articleOne.className ="article"
+        
+        let articleOneName = document.createElement("p");
+        articleOneName.innerHTML = "Doors Of Steel, Wings of Time";
+        articleOneName.className = "article-name"
+        document.getElementById("article1").appendChild(articleOneName);
+
+        let articleOneDescription = document.createElement("p");
+        articleOneDescription.innerHTML = "Why the DeLorean may be the ideal container for chronological travel";
+        articleOneDescription.className = "article-description"
+        document.getElementById("article1").appendChild(articleOneDescription);
+
+        let articleHR = document.createElement("hr")
+        document.getElementById('article1').appendChild(articleHR);
+
+        
+        let articleTwo = document.createElement('div')
+        document.getElementById ("bottomContainer").append(articleTwo)
+        articleTwo.id="article2"
+        articleTwo.className ="article"
+        
+        let articleTwoName = document.createElement("p");
+        articleTwoName.innerHTML = "1.21 gigawatts in a bottle";
+        articleTwoName.className = "article-name"
+        document.getElementById("article2").appendChild(articleTwoName);
+
+        let articleTwoDescription = document.createElement("p");
+        articleTwoDescription.innerHTML = "The consideration of lightening as a replacement for plutonium";
+        articleTwoDescription.className = "article-description"
+        document.getElementById("article2").appendChild(articleTwoDescription);
+
+        let articleHR2 = document.createElement("hr")
+        document.getElementById('article2').appendChild(articleHR2);
+
+
+        let articleThree = document.createElement('div')
+        document.getElementById ("bottomContainer").append(articleThree)
+        articleThree.id="article3"
+        articleThree.className ="article"
+        
+        let articleThreeName = document.createElement("p");
+        articleThreeName.innerHTML = "Jig dressed Man";
+        articleThreeName.className = "article-name"
+        document.getElementById("article3").appendChild(articleThreeName);
+
+        let articleThreeDescription = document.createElement("p");
+        articleThreeDescription.innerHTML = "Exploring the influence of 1880's folk dance on ZZ top";
+        articleThreeDescription.className = "article-description"
+        document.getElementById("article3").appendChild(articleThreeDescription);
+
     }
+
+    // let bottomContainer = document.createElement("div");
+    //     bottonContainer.innerText = 
+
+    // <div class="bottom-container">
+    // <div class="article">
+    //     <p class="article-name">Doors Of Steel, Wings of Time</p>
+    //     <p class="article-description">Why the DeLorean may be the ideal container for chronological travel</p>
+    //     <hr>
+    // </div>
+    // <div class="article">
+    //     <p class="article-name">1.21 gigawatts in a bottle</p>
+    //     <p class="article-description">The consideration of lightening as a replacement for plutonium</p>
+    //     <hr>
+    // </div>
+    // <div class="article">
+    //     <p class="article-name">Jig Dressed Man</p>
+    //     <p class="article-description">Exploring the influence of 1880's folk dance on ZZ top</p>
+
+    // </div>
+    
+    // </div>
