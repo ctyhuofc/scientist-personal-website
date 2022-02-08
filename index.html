@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website of Dr. Emmett Brown</title>
 <style></style>
@@ -16,13 +15,13 @@
 </head>
 <body id="styleBody">
 <div class = "header">
-<h1 id="name-header">Dr. Emmett Brown</h1>
+<h1 id="name-header" color="brown">Dr. Emmett Brown</h1>
 </div>
 <div class="top-container">
-<img src="./images/docpic.jpg" id="docpic" >
+<img src="./images/docpic.jpg" id="docpic">
 <p id="docd">My name is Doctor Emmett Brown. NOT Rick! I  am a scientist and inventer of the flux-capacitor. My best friends are a teenage boy named Marty and my dog Einstein.</p>
 </div>
-<h2 id="upcoming-header">Upcoming Events:</h2>
+<h2 id="upcoming-header">Upcoming Events:</h2><br><br>
     <div class="middle-container" id="mid-cont">
         <div class="upcoming-events" id="ue1">
         <p class="event-name">Death</p>
@@ -45,10 +44,11 @@
 
 
     </div>
+    <br>
     <div class="stylebutton">
     <button class="style-button" onclick="clickMe()">Fix Me</button>
     </div>
-    <h2>Articles:</h2>
+    <h2>Articles:</h2><br><br>
     <div class="bottom-container" id="bottomContainer">
     <!-- <div class="article" id="article1"> -->
         <!-- <p class="article-name">Doors Of Steel, Wings of Time</p>
@@ -65,13 +65,11 @@
         <p class="article-description">Exploring the influence of 1880's folk dance on ZZ top</p> -->
 
     </div>
-    
-    </div>
     <br>
-    <Form>
-    <label for"Scientist"><h2>Favourite Scientist:</h2><label><input type="text" class="scientist-input" id="scientist" value="">
-    <br>
+    <h2 class="favScientist">Favourite Scientist:</h2>
+    <input type="text" class="scientist-input" id="scientist" value="">
+    <br><br>
     <button class="style-button" onclick="alert('Your fav scientist is '+scientist.value+'!')">Click Me</button>
-    </Form>
+    <br>
 </body>
 </html>

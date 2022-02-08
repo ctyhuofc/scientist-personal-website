@@ -3,10 +3,10 @@ function clickMe(){
     myElement.style.display = 'inline-block';
     myElement.style.position = 'absolute';
     myElement.style.padding = '20px';
-    myElement.style.marginLeft = '100px';
-    myElement.style.marginRight = '400px';
+    myElement.style.marginLeft = '3%';
+    myElement.style.marginRight = '10%';
     myElement.style.border = '1px solid #0637AA';
-    myElement.style.marginTop = '0px';
+    myElement.style.marginTop = '5px';
     myElement.style.fontWeight = 'bold';
     myElement.style.fontFamily = 'Courier New';
     myElement.style.fontSize = 'larger';
