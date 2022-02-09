@@ -93,6 +93,10 @@ function clickMe(){
         articleThreeDescription.className = "article-description"
         document.getElementById("article3").appendChild(articleThreeDescription);
 
+        // let fixMeButton = document.getElementById("fix-me-button")
+        // fixMeButton.append
+        // <button onClick="window.location.href=window.location.href">Refresh Page</button>
+
     }
 
     // let bottomContainer = document.createElement("div");
